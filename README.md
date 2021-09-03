@@ -1,2 +1,6 @@
 # sciencefair2016
 Listed in this repository are some of the files used for the development of the Collect-O-Bot, my sophomore year science fair project.
+
+The documentation for this one is a little more sparse, as more of the files have been lost over the years. 
+
+As a high-level overview, the camera mouned on the mast would make a 360 degree scan of the room, passing a video feed to RoboRealm, a computer vision software running on the integrated miniature Windows computer. The RoboRealm software allowed for the creation of various image filters to detect specific desired objects (pingpong balls, cans, etc.). When detected, a signal would be sent to the connected Arduino board which would in turn stop the panning of the camera and read the magnetometer also mounted to the camera mast, saving the detected angle of the object. The mast would then swivel around to line up with the forward direction of the robot, and then the wheels would then swivel the robot itself to face the direction of the object. The robot would then drive towards the object, picking it up with the grabber and depositing it in the collection bin. This woud repeat until all of the objects in the room had been collected.
