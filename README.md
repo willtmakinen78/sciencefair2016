@@ -1,5 +1,5 @@
 # Science Fair 2016
-Listed in this repository are some of the files used for the development of the Collect-O-Bot, my sophomore year science fair project.
+Listed in this repository are some of the files used for the development of the Collect-O-Bot, my highschool Sophomore year science fair project.
 
 The documentation for this one is a little more sparse, as more of the files have been lost over the years. 
 
